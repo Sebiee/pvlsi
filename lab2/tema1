@@ -1,0 +1,32 @@
+module circuit_vot_majoritar(out, A, B, C);
+
+output out;
+input A, B, C;
+wire o1, o2, o3;
+
+
+and gate1(o1, A, B);
+and gate2(o2, A, C);
+and gate3(o3, B, C);
+or gate4(out, o1, o2, o3);
+
+endmodule;
+
+module test_circuit_vot_majoritar();
+
+reg A, B, C;
+wire out;
+
+circuit_vot_majoritar(out, A, B, C);
+
+initial begin
+  A=0; B=0; C=0;
+  #20 C=1;
+  #20 B=1; C=0;
+  #20 C=1;
+  #20 A=1; B=0; C=0;
+  #20 C=1;
+  #20 B=1; C=0;
+  #20 C=1;
+end
+endmodule

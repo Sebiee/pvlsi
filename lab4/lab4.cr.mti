@@ -1,0 +1,9 @@
+D:/3142a/sebi/lab4/sumator.v {1 {vlog -work work -stats=none D:/3142a/sebi/lab4/sumator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module sumator4
+-- Compiling module test_sumator4
+
+Top level modules:
+	test_sumator4
+
+} {} {}}

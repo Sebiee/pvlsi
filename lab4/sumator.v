@@ -1,0 +1,36 @@
+//descriere sumator
+module sumator4 (A,B,Cin,S,Cout);
+input [3:0] A,B;
+input Cin;
+output reg [3:0] S;
+output reg Cout;
+
+always @(A or B or Cin) //@(*)
+begin
+//suma A+B+Cin <= 15 (S=1111)
+if(A+B+Cin <= 15) begin
+  S=A+B+Cin;
+  Cout=0;
+end
+else begin //suma > 15
+  S=A+B+Cin;
+  Cout=1;
+end
+
+end
+endmodule
+
+module test_sumator4;
+reg [3:0] A,B;
+reg Cin;
+wire [3:0] S;
+wire Cout;
+sumator4 SUM (A,B,Cin,S,Cout);
+initial begin
+  A = 8;
+  B = 4;
+  Cin = 1; //S=13 1101 Cout=0
+  #20
+  B = 10; //S=19 0011 Cout=1
+end
+endmodule

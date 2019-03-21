@@ -1,0 +1,25 @@
+D:/3142a/sebi/tema4.v {1 {vlog -work work -stats=none D:/3142a/sebi/tema4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module multiplexor_4_intrari
+-- Compiling module test_multiplexor_4_intrari
+
+Top level modules:
+	test_multiplexor_4_intrari
+
+} {} {}} D:/3142a/sebi/file.v {1 {vlog -work work -stats=none D:/3142a/sebi/file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module circuit_XOR
+-- Compiling module test_circuit_XOR
+
+Top level modules:
+	test_circuit_XOR
+
+} {} {}} D:/3142a/sebi/tema1.v {1 {vlog -work work -stats=none D:/3142a/sebi/tema1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module circuit_vot_majoritar
+-- Compiling module test_circuit_vot_majoritar
+
+Top level modules:
+	test_circuit_vot_majoritar
+
+} {} {}}
