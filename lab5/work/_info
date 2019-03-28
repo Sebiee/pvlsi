@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/3141b/lab5
+valu
+Z0 !s110 1553787217
+!i10b 1
+!s100 XoCjj1DnWd0iZ8`LDNJ^O1
+I@aF4Izdkb4E?IeFBRj:<J1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/3142a/sebi/lab5
+Z3 w1553787210
+Z4 8D:/3142a/sebi/lab5/ALU.v
+Z5 FD:/3142a/sebi/lab5/ALU.v
+L0 1
+Z6 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1553787217.000000
+Z8 !s107 D:/3142a/sebi/lab5/ALU.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/3142a/sebi/lab5/ALU.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcodificator8
+Z12 !s110 1553783375
+!i10b 1
+!s100 gQb8zQhOgNQ>W8UDSMEVU0
+I0G98X]nCZ@nVXnb?PlLLU3
+R1
+R2
+Z13 w1553783270
+Z14 8D:/3142a/sebi/lab5/codificator8.v
+Z15 FD:/3142a/sebi/lab5/codificator8.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z16 !s108 1553783375.000000
+Z17 !s107 D:/3142a/sebi/lab5/codificator8.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/3142a/sebi/lab5/codificator8.v|
+!i113 1
+R10
+R11
+vdemultiplexor8
+Z19 !s110 1553784688
+!i10b 1
+!s100 hKSQ<A[4`D>zGPNF7ODF00
+I7Zb;Cc1E5<d7gJZ8lnD?X2
+R1
+R2
+Z20 w1553784658
+Z21 8D:/3142a/sebi/lab5/demultiplexor8.v
+Z22 FD:/3142a/sebi/lab5/demultiplexor8.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z23 !s108 1553784688.000000
+Z24 !s107 D:/3142a/sebi/lab5/demultiplexor8.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|D:/3142a/sebi/lab5/demultiplexor8.v|
+!i113 1
+R10
+R11
+vtest_alu
+R0
+!i10b 1
+!s100 TBz3fFdJF<mY;XF7ERzNM0
+IUT8>D@]@KiziKMg^D?[Tf2
+R1
+R2
+R3
+R4
+R5
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtest_codificator8
+R12
+!i10b 1
+!s100 ND=HC11=M>g1>9iRBW;cd2
+Ii@H_bUIhe;@M7Yh<R[4e61
+R1
+R2
+R13
+R14
+R15
+L0 12
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vtest_demultiplexor8
+R19
+!i10b 1
+!s100 nU>:[2Z`k@T[Ln=MbiSZQ2
+IRU96Yedojf>J@??]2;9>a0
+R1
+R2
+R20
+R21
+R22
+L0 22
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+R11
